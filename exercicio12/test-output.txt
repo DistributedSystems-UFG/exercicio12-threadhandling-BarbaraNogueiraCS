@@ -1,0 +1,16 @@
+main: Starting MessageLoop thread.
+main: Starting CPU-intensive thread.
+main: Waiting for threads to finish. Time limit: 3 second(s).
+CpuIntensiveThread: CPU task still running. Primes found so far: 0. Last tested number: 10000000000
+main: Still waiting...
+CpuIntensiveThread: CPU task still running. Primes found so far: 8668. Last tested number: 10000200000
+main: Still waiting...
+CpuIntensiveThread: CPU task still running. Primes found so far: 17338. Last tested number: 10000400000
+MessageLoopThread: Mares eat oats
+main: Time limit exceeded. Requesting interruption of unfinished threads.
+main: Interrupting MessageLoopThread
+main: Interrupting CpuIntensiveThread
+main: Still waiting...
+MessageLoopThread: MessageLoop was interrupted before finishing.
+CpuIntensiveThread: CPU-intensive task interrupted safely. Primes found: 17780. Last tested number: 10000409827
+main: Finally!
